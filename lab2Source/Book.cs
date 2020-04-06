@@ -9,8 +9,8 @@ namespace lab2Source
     [Serializable]
     public class Book : Source
     {
-        DateTime YearOfPublishing;//Год издания
-        string Publisher;//Название Издательство
+        public DateTime YearOfPublishing;//Год издания
+        public string Publisher;//Название Издательство
 
         /// <summary>
         /// Конструктор по умолчанию

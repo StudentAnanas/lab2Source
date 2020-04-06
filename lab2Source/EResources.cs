@@ -9,8 +9,8 @@ namespace lab2Source
     [Serializable]
     public class EResources : Source
     {   
-        string Src;//сылка на источник
-        string Note;//аннотация на источник
+        public string Src;//сылка на источник
+        public string Note;//аннотация на источник
         /// <summary>
         /// Конструктор Электронного ресурса по умолчанию
         /// </summary>

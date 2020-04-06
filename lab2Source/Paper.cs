@@ -9,9 +9,9 @@ namespace lab2Source
     [Serializable]
     public class Paper : Source
     {
-        string NamePaper; //Название журнала
-        int Number; //Номер издания
-        DateTime YearOfPublishing; //Год публикации
+        public string NamePaper; //Название журнала
+        public int Number; //Номер издания
+        public DateTime YearOfPublishing; //Год публикации
 
         /// <summary>
         /// Конструктор  Журнала по умолчанию
